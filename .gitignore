@@ -1,0 +1,30 @@
+# General Project related
+.DS_Store
+mdapi-source/
+target/
+temp/
+/deploy/*
+/debug/
+**/dep-dir.txt
+*.prefs
+build.properties
+.execanon
+
+# VS Code IDE Related
+.vscode/
+.history/
+
+# Illuminated Cloud Related
+.idea/
+IlluminatedCloud
+
+# SFDX Related
+.sfdx/
+sfdx-source/untracked/*
+!sfdx-source/untracked/README.md
+sfdx-source/callout-framework/main/default
+
+# NPM Related
+package.json
+/node_modules
+package-lock.json
